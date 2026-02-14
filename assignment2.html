@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>B Shreya Reddy - Personal Profile</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.2);
+        }
+
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 60px 40px;
+            text-align: center;
+        }
+
+        .profile-img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            border: 5px solid white;
+            margin-bottom: 20px;
+            object-fit: cover;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+        }
+
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+
+        .tagline {
+            font-size: 1.2em;
+            opacity: 0.9;
+        }
+
+        .content {
+            padding: 40px;
+        }
+
+        h2 {
+            color: #667eea;
+            font-size: 1.8em;
+            margin: 30px 0 15px 0;
+            padding-bottom: 10px;
+            border-bottom: 3px solid #667eea;
+        }
+
+        h3 {
+            color: #764ba2;
+            font-size: 1.3em;
+            margin: 20px 0 10px 0;
+        }
+
+        .social-links {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 20px;
+        }
+
+        .social-links a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+            background: rgba(255,255,255,0.2);
+            border-radius: 25px;
+            transition: all 0.3s;
+        }
+
+        .social-links a:hover {
+            background: rgba(255,255,255,0.3);
+            transform: translateY(-2px);
+        }
+
+        ul {
+            list-style-position: inside;
+            margin: 15px 0;
+        }
+
+        li {
+            padding: 8px 0;
+            padding-left: 20px;
+        }
+
+        .skills-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 10px;
+            margin: 15px 0;
+        }
+
+        .skills-list li {
+            background: #f0f0f0;
+            padding: 10px 15px;
+            border-radius: 5px;
+            list-style: none;
+        }
+
+        .project-card {
+            background: #f9f9f9;
+            padding: 20px;
+            margin: 15px 0;
+            border-radius: 10px;
+            border-left: 4px solid #667eea;
+        }
+
+        .project-card h3 {
+            margin-top: 0;
+        }
+
+        .tech-stack {
+            color: #666;
+            font-style: italic;
+            margin-bottom: 10px;
+        }
+
+        a {
+            color: #667eea;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Header Section -->
+        <div class="header">
+            <img src="https://via.placeholder.com/150" alt="Profile Picture" class="profile-img">
+            <h1>B Shreya Reddy</h1>
+            <p class="tagline">Computer Science Engineer | Full Stack Developer | AI Enthusiast</p>
+            
+            <div class="social-links">
+                <a href="https://github.com/yourusername" target="_blank">GitHub</a>
+                <a href="https://linkedin.com/in/yourusername" target="_blank">LinkedIn</a>
+                <a href="mailto:email@example.com">Email</a>
+            </div>
+        </div>
+
+        <!-- Main Content -->
+        <div class="content">
+            <!-- About Me Section -->
+            <h2>About Me</h2>
+            <p>
+                Hello! I'm a passionate Computer Science Engineering student specializing in IoT, Cybersecurity, and Blockchain Technology 
+                at Bangalore Institute of Technology. I love building innovative solutions that solve real-world problems, with a focus on 
+                web development and AI-powered applications.
+            </p>
+
+            <!-- Projects Section -->
+            <h2>Featured Projects</h2>
+            
+            <div class="project-card">
+                <h3>AtomAlly</h3>
+                <p class="tech-stack">HTML, CSS, Next.js, TypeScript, MongoDB</p>
+                <ul>
+                    <li>Created a collaborative molecule banking platform for research teams</li>
+                    <li>Integrated RDKit and MolMim libraries and leveraged PubChem API</li>
+                    <li>Implemented real-time chat functionality using Ably API</li>
+                </ul>
+            </div>
+
+            <div class="project-card">
+                <h3>Structura</h3>
+                <p class="tech-stack">MiniLM-L6-v2, Python, Docker (Hackathon Project)</p>
+                <ul>
+                    <li>Built AI-powered PDF parsing system for structured extraction</li>
+             li>The Complete Front-End Web Development Course – Udemy</li>
+            <li>React - The Complete Guide (incl. Next.js, Redux) – Udemy</li>
+            <li>JNCAA - Cloud, Associate (JNCIA-Cloud) – Juniper</li>
+        </ul>
+    </div>
+
+</div>
+
+</body>
+</html>
